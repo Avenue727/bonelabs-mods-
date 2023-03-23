@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "root": {
+    "ref": "o:1",
+    "type": "t:1"
+  },
+  "objects": {
+    "o:1": {
+      "barcode": "krisp.ferrari",
+      "title": "ferrari",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "krisp",
+      "version": "room",
+      "sdkVersion": "0.3.7-1748",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "o:2",
+          "type": "t:2"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "t:1"
+      }
+    },
+    "o:2": {
+      "barcode": "krisp.ferrari.Spawnable.FerrariF40",
+      "title": "Ferrari F40",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "2d85469dec7422442b6888f378c56ba5",
+      "tags": [
+        "krisp",
+        "Vehicle"
+      ],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "44a914e46d0fb414fa4b83ce55e4f379"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": -0.00650000572,
+          "y": 0.114988804,
+          "z": 0.2645818
+        },
+        "extents": {
+          "x": 1.094484,
+          "y": 0.5677508,
+          "z": 2.08984542
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    }
+  },
+  "types": {
+    "t:1": {
+      "type": "t:1",
+      "fullname": "SLZ.Marrow.Warehouse.Pallet, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:2": {
+      "type": "t:2",
+      "fullname": "SLZ.Marrow.Warehouse.SpawnableCrate, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}

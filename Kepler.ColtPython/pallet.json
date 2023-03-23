@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "root": {
+    "ref": "o:1",
+    "type": "t:1"
+  },
+  "objects": {
+    "o:1": {
+      "barcode": "Kepler.ColtPython",
+      "title": "ColtPython",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "Kepler",
+      "version": "0.0.0",
+      "sdkVersion": "0.3.7-1748",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "o:2",
+          "type": "t:2"
+        },
+        {
+          "ref": "o:3",
+          "type": "t:2"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "t:1"
+      }
+    },
+    "o:2": {
+      "barcode": "Kepler.ColtPython.Spawnable.357bullet",
+      "title": "357 bullet",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "1c8fdd2d6c45644469cbdac918e0dbde",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "f04245a7ee56b89418433ffe2820158d"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.000137541443,
+          "z": 0.0158610418
+        },
+        "extents": {
+          "x": 0.0275082178,
+          "y": 0.0275082178,
+          "z": 0.0401181728
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    },
+    "o:3": {
+      "barcode": "Kepler.ColtPython.Spawnable.ColtPython",
+      "title": "Colt Python",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "d03700fcd8a98974b8dd7dcfd6f4b873",
+      "tags": [
+        "Kepler's weapons"
+      ],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "2c17cbd87579f0145876610639635460"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.000333271921,
+          "y": -0.039203465,
+          "z": -0.09422192
+        },
+        "extents": {
+          "x": 0.02259891,
+          "y": 0.07883254,
+          "z": 0.174787015
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    }
+  },
+  "types": {
+    "t:1": {
+      "type": "t:1",
+      "fullname": "SLZ.Marrow.Warehouse.Pallet, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:2": {
+      "type": "t:2",
+      "fullname": "SLZ.Marrow.Warehouse.SpawnableCrate, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}

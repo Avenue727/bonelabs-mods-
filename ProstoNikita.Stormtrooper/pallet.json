@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "root": {
+    "ref": "o:1",
+    "type": "t:1"
+  },
+  "objects": {
+    "o:1": {
+      "barcode": "ProstoNikita.Stormtrooper",
+      "title": "Stormtrooper",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "ProstoNikita",
+      "version": "0.0.0",
+      "sdkVersion": "0.3.7-1748",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "o:2",
+          "type": "t:2"
+        },
+        {
+          "ref": "o:3",
+          "type": "t:2"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "t:1"
+      }
+    },
+    "o:2": {
+      "barcode": "ProstoNikita.Stormtrooper.Spawnable.Stormtrooper",
+      "title": "Stormtrooper",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "99f8b97f8adb0b9469f63fd82000206b",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "5c5c6c6f93609354c92617d97b29d338"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 1.78813934E-07,
+          "y": 0.8700777,
+          "z": 0.0164706856
+        },
+        "extents": {
+          "x": 0.521718,
+          "y": 0.870077968,
+          "z": 0.174421847
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    },
+    "o:3": {
+      "barcode": "ProstoNikita.Stormtrooper.Spawnable.StormtrooperHP",
+      "title": "Stormtrooper HP",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "3ecd2fdcb45088d4eb77fb5fd3afed40",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "0c9c719f8aaa0be4fae9c6175882e63d"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 1.78813934E-07,
+          "y": 0.8700777,
+          "z": 0.0164706856
+        },
+        "extents": {
+          "x": 0.521718,
+          "y": 0.870077968,
+          "z": 0.174421847
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    }
+  },
+  "types": {
+    "t:1": {
+      "type": "t:1",
+      "fullname": "SLZ.Marrow.Warehouse.Pallet, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:2": {
+      "type": "t:2",
+      "fullname": "SLZ.Marrow.Warehouse.SpawnableCrate, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}

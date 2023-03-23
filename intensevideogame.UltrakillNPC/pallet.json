@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "root": {
+    "ref": "o:1",
+    "type": "t:1"
+  },
+  "objects": {
+    "o:1": {
+      "barcode": "intensevideogame.UltrakillNPC",
+      "title": "Ultrakill NPC",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "intensevideogame",
+      "version": "0.0.0",
+      "sdkVersion": "0.3.7-1748",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "o:2",
+          "type": "t:2"
+        },
+        {
+          "ref": "o:3",
+          "type": "t:2"
+        },
+        {
+          "ref": "o:4",
+          "type": "t:2"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "t:1"
+      }
+    },
+    "o:2": {
+      "barcode": "intensevideogame.UltrakillNPC.Spawnable.V1",
+      "title": "V1",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "4465a016f118d3147b6676f88f4a024c",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "4d31f0defba4ccb4a85c575398ddca16"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 1.78813934E-07,
+          "y": 0.8700777,
+          "z": 0.0164706856
+        },
+        "extents": {
+          "x": 0.521718,
+          "y": 0.870077968,
+          "z": 0.174421847
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    },
+    "o:3": {
+      "barcode": "intensevideogame.UltrakillNPC.Spawnable.Pinos",
+      "title": "Pinos",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "58505976c44893e499680c54b4512290",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "2a24ff72b3e890645837860b3cdff353"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 1.78813934E-07,
+          "y": 0.9975802,
+          "z": 0.0128400326
+        },
+        "extents": {
+          "x": 0.521718,
+          "y": 0.9975804,
+          "z": 0.178052515
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    },
+    "o:4": {
+      "barcode": "intensevideogame.UltrakillNPC.Spawnable.V2",
+      "title": "V2",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "20365f498190af347b6f4026ece51771",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "2aceba8ac7f75d6478bb341f919d5c65"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 1.78813934E-07,
+          "y": 0.8700777,
+          "z": 0.0164706856
+        },
+        "extents": {
+          "x": 0.521718,
+          "y": 0.870077968,
+          "z": 0.174421847
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    }
+  },
+  "types": {
+    "t:1": {
+      "type": "t:1",
+      "fullname": "SLZ.Marrow.Warehouse.Pallet, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:2": {
+      "type": "t:2",
+      "fullname": "SLZ.Marrow.Warehouse.SpawnableCrate, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "root": {
+    "ref": "o:1",
+    "type": "t:1"
+  },
+  "objects": {
+    "o:1": {
+      "barcode": "Joquvie.ApexWingman",
+      "title": "Apex Wingman",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "Joquvie",
+      "version": "1.02",
+      "sdkVersion": "0.3.7-1748",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "o:2",
+          "type": "t:2"
+        },
+        {
+          "ref": "o:3",
+          "type": "t:2"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "t:1"
+      }
+    },
+    "o:2": {
+      "barcode": "Joquvie.ApexWingman.Spawnable.WingmanMag",
+      "title": "Wingman Mag",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "54b62f18b30d7ad4cac210095681ce8f",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "c09b68c4d6fcafc41bf6dc2a79bbc004"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.009656098,
+          "y": 0.007799996,
+          "z": 0.0748172
+        },
+        "extents": {
+          "x": 0.03524388,
+          "y": 0.02554624,
+          "z": 0.0394773334
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    },
+    "o:3": {
+      "barcode": "Joquvie.ApexWingman.Spawnable.Wingman",
+      "title": "Wingman",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "ce917111d88cf2548872a4c4c89e2421",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "d6c774ece31bc124fa9ec87dffef51cc"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": -0.005500002,
+          "y": -0.0123663023,
+          "z": 0.09147762
+        },
+        "extents": {
+          "x": 0.0300000068,
+          "y": 0.09532872,
+          "z": 0.176009163
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    }
+  },
+  "types": {
+    "t:1": {
+      "type": "t:1",
+      "fullname": "SLZ.Marrow.Warehouse.Pallet, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:2": {
+      "type": "t:2",
+      "fullname": "SLZ.Marrow.Warehouse.SpawnableCrate, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}

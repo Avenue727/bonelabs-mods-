@@ -1,0 +1,207 @@
+{
+  "version": 1,
+  "root": {
+    "ref": "o:1",
+    "type": "t:1"
+  },
+  "objects": {
+    "o:1": {
+      "barcode": "Aguacate.AWP",
+      "title": "AWP",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "Aguacate",
+      "version": "0.0.0",
+      "sdkVersion": "0.3.7-1748",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "o:2",
+          "type": "t:2"
+        },
+        {
+          "ref": "o:3",
+          "type": "t:2"
+        },
+        {
+          "ref": "o:4",
+          "type": "t:2"
+        },
+        {
+          "ref": "o:5",
+          "type": "t:2"
+        },
+        {
+          "ref": "o:6",
+          "type": "t:2"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "t:1"
+      }
+    },
+    "o:2": {
+      "barcode": "Aguacate.AWP.Spawnable.AWPMag",
+      "title": "AWP Mag",
+      "description": "",
+      "unlockable": false,
+      "redacted": true,
+      "mainAsset": "97fea549be7550a4cae748fb71b07111",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "963e55736737f6a499013c8721445f61"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0300960168,
+          "z": -0.00516753644
+        },
+        "extents": {
+          "x": 0.04082499,
+          "y": 0.07327293,
+          "z": 0.0597419143
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    },
+    "o:3": {
+      "barcode": "Aguacate.AWP.Spawnable.MinimalProjectile",
+      "title": "Minimal Projectile",
+      "description": "",
+      "unlockable": false,
+      "redacted": true,
+      "mainAsset": "77f992e260dfdad4f93b1964ca03f0a9",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "946194696f633754f97b406784d156ed"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    },
+    "o:4": {
+      "barcode": "Aguacate.AWP.Spawnable.MinimalCartridgeCase",
+      "title": "Minimal Cartridge Case",
+      "description": "",
+      "unlockable": false,
+      "redacted": true,
+      "mainAsset": "a6d9957ae5a80fa48a08aec677eb6e9b",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "f44f29a8071ea074d9558768862297ce"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0105961785
+        },
+        "extents": {
+          "x": 0.009030003,
+          "y": 0.009030001,
+          "z": 0.03150998
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    },
+    "o:5": {
+      "barcode": "Aguacate.AWP.Spawnable.MinimalCartridge",
+      "title": "Minimal Cartridge",
+      "description": "",
+      "unlockable": false,
+      "redacted": true,
+      "mainAsset": "1a641e3150513ed4db48b3e06fd21342",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "7e002f3f475b2be4986fde6082be7d7d"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": -1.86264515E-09,
+          "y": 0.0,
+          "z": 0.0183203481
+        },
+        "extents": {
+          "x": 0.00903001,
+          "y": 0.009030001,
+          "z": 0.04418417
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    },
+    "o:6": {
+      "barcode": "Aguacate.AWP.Spawnable.AWP",
+      "title": "AWP",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "94833ceadb823394f87e4423082d9771",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "a0ae0f72aaa268d43ab8b7278ddb63a6"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.00735702366,
+          "y": -0.0374737754,
+          "z": 0.303753525
+        },
+        "extents": {
+          "x": 0.03608107,
+          "y": 0.086464,
+          "z": 0.6062266
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    }
+  },
+  "types": {
+    "t:1": {
+      "type": "t:1",
+      "fullname": "SLZ.Marrow.Warehouse.Pallet, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:2": {
+      "type": "t:2",
+      "fullname": "SLZ.Marrow.Warehouse.SpawnableCrate, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}

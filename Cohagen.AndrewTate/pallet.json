@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "root": {
+    "ref": "o:1",
+    "type": "t:1"
+  },
+  "objects": {
+    "o:1": {
+      "barcode": "Cohagen.AndrewTate",
+      "title": "AndrewTate",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "Cohagen",
+      "version": "0.0.0",
+      "sdkVersion": "0.3.7-1748",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "o:2",
+          "type": "t:2"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "t:1"
+      }
+    },
+    "o:2": {
+      "barcode": "Cohagen.AndrewTate.Spawnable.cohandrewtate",
+      "title": "coh_andrewtate",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "a492e698084947d4883c04f50492a463",
+      "tags": [
+        "Cohagen"
+      ],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "ecf407386d4019441b8b28daae10f769"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 1.1920929E-07,
+          "y": 0.8530432,
+          "z": 0.0163627714
+        },
+        "extents": {
+          "x": 0.518299162,
+          "y": 0.853043437,
+          "z": 0.173278868
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    }
+  },
+  "types": {
+    "t:1": {
+      "type": "t:1",
+      "fullname": "SLZ.Marrow.Warehouse.Pallet, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:2": {
+      "type": "t:2",
+      "fullname": "SLZ.Marrow.Warehouse.SpawnableCrate, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}
